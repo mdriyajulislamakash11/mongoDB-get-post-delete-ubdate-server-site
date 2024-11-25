@@ -24,16 +24,11 @@
  * 4. add headers: {'content-type': 'application/json'}
  * 5. add body: JSON.Stringify(user)
  * 
- *
- * 
- * 
- * 
  * -----------------------
  * READ MANY
  * ------------------------
  * 1. create a cursor = userCollection.find()
  * 2. const result = await cursor.toArray()
- * 
  * 
  * -----------------------------
  * DELETE
@@ -46,10 +41,6 @@
  * Client
  * 1. create dynamic url with id
  * 2. mention the DELETE method 
- * 
- * 
- * 
- * 
  * 
  *  
 */
